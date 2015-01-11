@@ -1,0 +1,7 @@
+DEBUG = True
+SECRET_KEY = 'ONE FOO BEFORE ANOTHER'
+DATABASE_USER = 'dmiller'
+DATABASE_PASS = 'stuff'
+DATABASE_TYPE = 'postgresql'
+DATABASE_URL = 'localhost'
+DATABASE_NAME = 'persona'
