@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}
+    Test
+{% endblock %}
+{% block content %}
+    <div id="{{list_name}}">
+        <div id="list-table">
+            <div id="table-name"><h2>{{ entity.name }}</h2></div>
+            <div id="column-list">
+                <div id="column-headers">
+                    {% for col in columns %}
+                    <span class="column" id="{{col}}-head">{{col}}</span>
+                    {% endfor %}
+                </div>
+                <div id="column-data">
+                    {% for col in columns %}
+                    <span class="column" id="{{col}}-data">{{getattr(entity, col.lower())}}</span>
+                    {% endfor %}
+                </div>
+            </div>
+    </div>
+{% endblock %}
