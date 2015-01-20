@@ -1,21 +1,131 @@
 ---
-- {agility: '4', endurance: '3', entity_type: Devil, level: '3', luck: '2', magic: '4',
-  name: Ukobach, strength: '3'}
-- {agility: '9', endurance: '5', entity_type: Devil, level: '10', luck: '8', magic: '11',
-  name: Lilim, strength: '4'}
-- {agility: '12', endurance: '14', entity_type: Devil, level: '19', luck: '11', magic: '10',
-  name: Vetala, strength: '17'}
-- {agility: '19', endurance: '16', entity_type: Devil, level: '28', luck: '17', magic: '22',
-  name: Incubus, strength: '17'}
-- {agility: '29', endurance: '28', entity_type: Devil, level: '37', luck: '19', magic: '15',
-  name: Pazuzu, strength: '27'}
-- {agility: '32', endurance: '28', entity_type: Devil, level: '44', luck: '27', magic: '33',
-  name: Succubus, strength: '22'}
-- {agility: '36', endurance: '30', entity_type: Devil, level: '53', luck: '27', magic: '43',
-  name: Lilith, strength: '30'}
-- {agility: '39', endurance: '42', entity_type: Devil, level: '61', luck: '21', magic: '48',
-  name: Belphegor, strength: '40'}
-- {agility: '40', endurance: '48', entity_type: Devil, level: '68', luck: '41', magic: '31',
-  name: Belial, strength: '51'}
-- {agility: '50', endurance: '48', entity_type: Devil, level: '81', luck: '44', magic: '57',
-  name: Beelzebub, strength: '51'}
+- absorbs: []
+  agility: '4'
+  endurance: '3'
+  entity_type: Devil
+  level: '3'
+  luck: '2'
+  magic: '4'
+  name: Ukobach
+  repels: []
+  resists: [Fire]
+  strength: '3'
+  voids: []
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '9'
+  endurance: '5'
+  entity_type: Devil
+  level: '10'
+  luck: '8'
+  magic: '11'
+  name: Lilim
+  repels: []
+  resists: [Dark]
+  strength: '4'
+  voids: []
+  weaknesses: [Light]
+- absorbs: []
+  agility: '12'
+  endurance: '14'
+  entity_type: Devil
+  level: '19'
+  luck: '11'
+  magic: '10'
+  name: Vetala
+  repels: []
+  resists: [Dark, Wind]
+  strength: '17'
+  voids: []
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '19'
+  endurance: '16'
+  entity_type: Devil
+  level: '28'
+  luck: '17'
+  magic: '22'
+  name: Incubus
+  repels: []
+  resists: []
+  strength: '17'
+  voids: [Dark, Fire]
+  weaknesses: [Light]
+- absorbs: []
+  agility: '29'
+  endurance: '28'
+  entity_type: Devil
+  level: '37'
+  luck: '19'
+  magic: '15'
+  name: Pazuzu
+  repels: [Ice]
+  resists: []
+  strength: '27'
+  voids: []
+  weaknesses: [Light]
+- absorbs: []
+  agility: '32'
+  endurance: '28'
+  entity_type: Devil
+  level: '44'
+  luck: '27'
+  magic: '33'
+  name: Succubus
+  repels: [Fire]
+  resists: []
+  strength: '22'
+  voids: [Dark]
+  weaknesses: [Light]
+- absorbs: []
+  agility: '36'
+  endurance: '30'
+  entity_type: Devil
+  level: '53'
+  luck: '27'
+  magic: '43'
+  name: Lilith
+  repels: [Elec]
+  resists: []
+  strength: '30'
+  voids: [Dark]
+  weaknesses: [Light]
+- absorbs: [Elec]
+  agility: '39'
+  endurance: '42'
+  entity_type: Devil
+  level: '61'
+  luck: '21'
+  magic: '48'
+  name: Belphegor
+  repels: [Dark]
+  resists: []
+  strength: '40'
+  voids: []
+  weaknesses: [Light]
+- absorbs: []
+  agility: '40'
+  endurance: '48'
+  entity_type: Devil
+  level: '68'
+  luck: '41'
+  magic: '31'
+  name: Belial
+  repels: [Dark]
+  resists: []
+  strength: '51'
+  voids: []
+  weaknesses: []
+- absorbs: [Fire]
+  agility: '50'
+  endurance: '48'
+  entity_type: Devil
+  level: '81'
+  luck: '44'
+  magic: '57'
+  name: Beelzebub
+  repels: [Dark, Elec]
+  resists: []
+  strength: '51'
+  voids: [Ice]
+  weaknesses: [Light]

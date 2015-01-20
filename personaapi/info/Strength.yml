@@ -1,21 +1,131 @@
 ---
-- {agility: '4', endurance: '6', entity_type: Strength, level: '5', luck: '3', magic: '5',
-  name: Sandman, strength: '4'}
-- {agility: '7', endurance: '6', entity_type: Strength, level: '8', luck: '5', magic: '6',
-  name: Valkyrie, strength: '7'}
-- {agility: '10', endurance: '10', entity_type: Strength, level: '14', luck: '6',
-  magic: '12', name: Titan, strength: '11'}
-- {agility: '14', endurance: '18', entity_type: Strength, level: '23', luck: '13',
-  magic: '12', name: Rakshasa, strength: '19'}
-- {agility: '19', endurance: '12', entity_type: Strength, level: '28', luck: '21',
-  magic: '21', name: Kusi Mitama, strength: '18'}
-- {agility: '18', endurance: '26', entity_type: Strength, level: '30', luck: '16',
-  magic: '12', name: Oni, strength: '25'}
-- {agility: '21', endurance: '31', entity_type: Strength, level: '42', luck: '25',
-  magic: '25', name: Hanuman, strength: '31'}
-- {agility: '35', endurance: '36', entity_type: Strength, level: '50', luck: '27',
-  magic: '25', name: Kali, strength: '37'}
-- {agility: '38', endurance: '41', entity_type: Strength, level: '63', luck: '33',
-  magic: '36', name: Siegfried, strength: '48'}
-- {agility: '47', endurance: '71', entity_type: Strength, level: '90', luck: '50',
-  magic: '48', name: Zaou-Gongen, strength: '61'}
+- absorbs: []
+  agility: '4'
+  endurance: '6'
+  entity_type: Strength
+  level: '5'
+  luck: '3'
+  magic: '5'
+  name: Sandman
+  repels: []
+  resists: [Wind]
+  strength: '4'
+  voids: []
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '7'
+  endurance: '6'
+  entity_type: Strength
+  level: '8'
+  luck: '5'
+  magic: '6'
+  name: Valkyrie
+  repels: []
+  resists: [Ice]
+  strength: '7'
+  voids: []
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '10'
+  endurance: '10'
+  entity_type: Strength
+  level: '14'
+  luck: '6'
+  magic: '12'
+  name: Titan
+  repels: []
+  resists: [Elec]
+  strength: '11'
+  voids: []
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '14'
+  endurance: '18'
+  entity_type: Strength
+  level: '23'
+  luck: '13'
+  magic: '12'
+  name: Rakshasa
+  repels: []
+  resists: [Physical]
+  strength: '19'
+  voids: []
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '19'
+  endurance: '12'
+  entity_type: Strength
+  level: '28'
+  luck: '21'
+  magic: '21'
+  name: Kusi Mitama
+  repels: []
+  resists: []
+  strength: '18'
+  voids: [Wind]
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '18'
+  endurance: '26'
+  entity_type: Strength
+  level: '30'
+  luck: '16'
+  magic: '12'
+  name: Oni
+  repels: []
+  resists: [Physical]
+  strength: '25'
+  voids: [Fire]
+  weaknesses: []
+- absorbs: []
+  agility: '21'
+  endurance: '31'
+  entity_type: Strength
+  level: '42'
+  luck: '25'
+  magic: '25'
+  name: Hanuman
+  repels: []
+  resists: [Physical]
+  strength: '31'
+  voids: [Ice]
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '35'
+  endurance: '36'
+  entity_type: Strength
+  level: '50'
+  luck: '27'
+  magic: '25'
+  name: Kali
+  repels: []
+  resists: []
+  strength: '37'
+  voids: [Dark, Ice]
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '38'
+  endurance: '41'
+  entity_type: Strength
+  level: '63'
+  luck: '33'
+  magic: '36'
+  name: Siegfried
+  repels: []
+  resists: [Ice]
+  strength: '48'
+  voids: [Physical]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '47'
+  endurance: '71'
+  entity_type: Strength
+  level: '90'
+  luck: '50'
+  magic: '48'
+  name: Zaou-Gongen
+  repels: [Fire]
+  resists: []
+  strength: '61'
+  voids: []
+  weaknesses: [Elec]

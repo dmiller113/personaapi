@@ -1,19 +1,118 @@
 ---
-- {agility: '11', endurance: '4', entity_type: Empress, level: '9', luck: '5', magic: '7',
-  name: Senri, strength: '7'}
-- {agility: '12', endurance: '10', entity_type: Empress, level: '18', luck: '10',
-  magic: '16', name: Yaksini, strength: '13'}
-- {agility: '19', endurance: '15', entity_type: Empress, level: '26', luck: '16',
-  magic: '23', name: Titania, strength: '12'}
-- {agility: '24', endurance: '25', entity_type: Empress, level: '34', luck: '19',
-  magic: '21', name: Gorgon, strength: '20'}
-- {agility: '30', endurance: '22', entity_type: Empress, level: '44', luck: '25',
-  magic: '34', name: Gabriel, strength: '28'}
-- {agility: '36', endurance: '32', entity_type: Empress, level: '52', luck: '31',
-  magic: '37', name: Skadi, strength: '27'}
-- {agility: '29', endurance: '37', entity_type: Empress, level: '60', luck: '36',
-  magic: '47', name: Mother Harlot, strength: '38'}
-- {agility: '39', endurance: '49', entity_type: Empress, level: '70', luck: '42',
-  magic: '48', name: Alilat, strength: '39'}
-- {agility: '48', endurance: '42', entity_type: Empress, level: '79', luck: '54',
-  magic: '48', name: Isis, strength: '52'}
+- absorbs: []
+  agility: '11'
+  endurance: '4'
+  entity_type: Empress
+  level: '9'
+  luck: '5'
+  magic: '7'
+  name: Senri
+  repels: []
+  resists: []
+  strength: '7'
+  voids: [Fire]
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '12'
+  endurance: '10'
+  entity_type: Empress
+  level: '18'
+  luck: '10'
+  magic: '16'
+  name: Yaksini
+  repels: []
+  resists: [Wind]
+  strength: '13'
+  voids: [Ice]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '19'
+  endurance: '15'
+  entity_type: Empress
+  level: '26'
+  luck: '16'
+  magic: '23'
+  name: Titania
+  repels: []
+  resists: []
+  strength: '12'
+  voids: [Ice]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '24'
+  endurance: '25'
+  entity_type: Empress
+  level: '34'
+  luck: '19'
+  magic: '21'
+  name: Gorgon
+  repels: []
+  resists: []
+  strength: '20'
+  voids: [Ice]
+  weaknesses: [Light]
+- absorbs: [Wind]
+  agility: '30'
+  endurance: '22'
+  entity_type: Empress
+  level: '44'
+  luck: '25'
+  magic: '34'
+  name: Gabriel
+  repels: []
+  resists: [Fire]
+  strength: '28'
+  voids: [Light]
+  weaknesses: [Dark]
+- absorbs: [Ice]
+  agility: '36'
+  endurance: '32'
+  entity_type: Empress
+  level: '52'
+  luck: '31'
+  magic: '37'
+  name: Skadi
+  repels: []
+  resists: [Wind]
+  strength: '27'
+  voids: []
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '29'
+  endurance: '37'
+  entity_type: Empress
+  level: '60'
+  luck: '36'
+  magic: '47'
+  name: Mother Harlot
+  repels: [Elec]
+  resists: [Ice]
+  strength: '38'
+  voids: [Dark]
+  weaknesses: [Wind, Light]
+- absorbs: []
+  agility: '39'
+  endurance: '49'
+  entity_type: Empress
+  level: '70'
+  luck: '42'
+  magic: '48'
+  name: Alilat
+  repels: []
+  resists: []
+  strength: '39'
+  voids: [Ice]
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '48'
+  endurance: '42'
+  entity_type: Empress
+  level: '79'
+  luck: '54'
+  magic: '48'
+  name: Isis
+  repels: [Ice]
+  resists: []
+  strength: '52'
+  voids: []
+  weaknesses: [Elec]

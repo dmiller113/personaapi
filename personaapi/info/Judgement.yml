@@ -1,15 +1,92 @@
 ---
-- {agility: '37', endurance: '37', entity_type: Judgement, level: '59', luck: '31',
-  magic: '41', name: Anubis, strength: '38'}
-- {agility: '45', endurance: '39', entity_type: Judgement, level: '67', luck: '37',
-  magic: '47', name: Trumpeter, strength: '40'}
-- {agility: '48', endurance: '43', entity_type: Judgement, level: '72', luck: '45',
-  magic: '42', name: Michael, strength: '45'}
-- {agility: '40', endurance: '47', entity_type: Judgement, level: '76', luck: '43',
-  magic: '60', name: Satan, strength: '45'}
-- {agility: '46', endurance: '53', entity_type: Judgement, level: '83', luck: '48',
-  magic: '55', name: Metatron, strength: '54'}
-- {agility: '41', endurance: '64', entity_type: Judgement, level: '90', luck: '58',
-  magic: '52', name: Ardha, strength: '62'}
-- {agility: '52', endurance: '61', entity_type: Judgement, level: '93', luck: '51',
-  magic: '69', name: Lucifer, strength: '62'}
+- absorbs: []
+  agility: '37'
+  endurance: '37'
+  entity_type: Judgement
+  level: '59'
+  luck: '31'
+  magic: '41'
+  name: Anubis
+  repels: []
+  resists: []
+  strength: '38'
+  voids: [Light]
+  weaknesses: []
+- absorbs: [Ice]
+  agility: '45'
+  endurance: '39'
+  entity_type: Judgement
+  level: '67'
+  luck: '37'
+  magic: '47'
+  name: Trumpeter
+  repels: [Elec, Light]
+  resists: []
+  strength: '40'
+  voids: [Dark]
+  weaknesses: []
+- absorbs: []
+  agility: '48'
+  endurance: '43'
+  entity_type: Judgement
+  level: '72'
+  luck: '45'
+  magic: '42'
+  name: Michael
+  repels: []
+  resists: [Physical]
+  strength: '45'
+  voids: [Fire, Light]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '40'
+  endurance: '47'
+  entity_type: Judgement
+  level: '76'
+  luck: '43'
+  magic: '60'
+  name: Satan
+  repels: [Dark, Fire]
+  resists: []
+  strength: '45'
+  voids: []
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '46'
+  endurance: '53'
+  entity_type: Judgement
+  level: '83'
+  luck: '48'
+  magic: '55'
+  name: Metatron
+  repels: [Light]
+  resists: []
+  strength: '54'
+  voids: [Fire]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '41'
+  endurance: '64'
+  entity_type: Judgement
+  level: '90'
+  luck: '58'
+  magic: '52'
+  name: Ardha
+  repels: []
+  resists: [Physical]
+  strength: '62'
+  voids: [Elec, Ice]
+  weaknesses: []
+- absorbs: []
+  agility: '52'
+  endurance: '61'
+  entity_type: Judgement
+  level: '93'
+  luck: '51'
+  magic: '69'
+  name: Lucifer
+  repels: []
+  resists: [Physical]
+  strength: '62'
+  voids: [Dark]
+  weaknesses: [Light]

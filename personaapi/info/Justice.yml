@@ -1,21 +1,131 @@
 ---
-- {agility: '5', endurance: '2', entity_type: Justice, level: '4', luck: '3', magic: '5',
-  name: Angel, strength: '4'}
-- {agility: '7', endurance: '7', entity_type: Justice, level: '11', luck: '9', magic: '9',
-  name: Archangel, strength: '8'}
-- {agility: '18', endurance: '10', entity_type: Justice, level: '19', luck: '10',
-  magic: '15', name: Principality, strength: '11'}
-- {agility: '17', endurance: '11', entity_type: Justice, level: '27', luck: '19',
-  magic: '20', name: Power, strength: '21'}
-- {agility: '19', endurance: '21', entity_type: Justice, level: '33', luck: '15',
-  magic: '29', name: Virtue, strength: '22'}
-- {agility: '24', endurance: '25', entity_type: Justice, level: '38', luck: '18',
-  magic: '32', name: Dominion, strength: '22'}
-- {agility: '37', endurance: '24', entity_type: Justice, level: '49', luck: '26',
-  magic: '30', name: Throne, strength: '37'}
-- {agility: '36', endurance: '37', entity_type: Justice, level: '58', luck: '31',
-  magic: '42', name: Uriel, strength: '35'}
-- {agility: '34', endurance: '46', entity_type: Justice, level: '66', luck: '28',
-  magic: '46', name: Melchizedek, strength: '51'}
-- {agility: '62', endurance: '44', entity_type: Justice, level: '74', luck: '33',
-  magic: '36', name: Sraosha, strength: '57'}
+- absorbs: []
+  agility: '5'
+  endurance: '2'
+  entity_type: Justice
+  level: '4'
+  luck: '3'
+  magic: '5'
+  name: Angel
+  repels: []
+  resists: [Light, Wind]
+  strength: '4'
+  voids: []
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '7'
+  endurance: '7'
+  entity_type: Justice
+  level: '11'
+  luck: '9'
+  magic: '9'
+  name: Archangel
+  repels: []
+  resists: []
+  strength: '8'
+  voids: [Light]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '18'
+  endurance: '10'
+  entity_type: Justice
+  level: '19'
+  luck: '10'
+  magic: '15'
+  name: Principality
+  repels: []
+  resists: []
+  strength: '11'
+  voids: [Light]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '17'
+  endurance: '11'
+  entity_type: Justice
+  level: '27'
+  luck: '19'
+  magic: '20'
+  name: Power
+  repels: []
+  resists: [Fire]
+  strength: '21'
+  voids: [Light]
+  weaknesses: [Dark, Elec]
+- absorbs: []
+  agility: '19'
+  endurance: '21'
+  entity_type: Justice
+  level: '33'
+  luck: '15'
+  magic: '29'
+  name: Virtue
+  repels: []
+  resists: []
+  strength: '22'
+  voids: [Elec, Light]
+  weaknesses: [Dark, Ice]
+- absorbs: []
+  agility: '24'
+  endurance: '25'
+  entity_type: Justice
+  level: '38'
+  luck: '18'
+  magic: '32'
+  name: Dominion
+  repels: [Light]
+  resists: []
+  strength: '22'
+  voids: [Elec]
+  weaknesses: [Dark, Wind]
+- absorbs: [Fire]
+  agility: '37'
+  endurance: '24'
+  entity_type: Justice
+  level: '49'
+  luck: '26'
+  magic: '30'
+  name: Throne
+  repels: []
+  resists: []
+  strength: '37'
+  voids: [Light]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '36'
+  endurance: '37'
+  entity_type: Justice
+  level: '58'
+  luck: '31'
+  magic: '42'
+  name: Uriel
+  repels: [Fire]
+  resists: []
+  strength: '35'
+  voids: [Light]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '34'
+  endurance: '46'
+  entity_type: Justice
+  level: '66'
+  luck: '28'
+  magic: '46'
+  name: Melchizedek
+  repels: []
+  resists: []
+  strength: '51'
+  voids: [Light]
+  weaknesses: [Dark]
+- absorbs: [Elec]
+  agility: '62'
+  endurance: '44'
+  entity_type: Justice
+  level: '74'
+  luck: '33'
+  magic: '36'
+  name: Sraosha
+  repels: [Light]
+  resists: []
+  strength: '57'
+  voids: []
+  weaknesses: [Dark]

@@ -26,6 +26,18 @@ if __name__ == '__main__':
         entity_type = soup.find('Arcana')['Name']
         temp = []
         for persona in soup.find_all('Persona'):
+            # Time for elemental info
+            elemental_info = {
+                'Null': [],
+                'Repel': [],
+                'Weak': [],
+                'Absorb': [],
+                'Resist': []
+            }
+
+            for (element, weak) in persona.find('Scan').attrs.items():
+                elemental_info[weak].append(element)
+
             temp.append({
                 'name': persona.get('Name'),
                 'level': persona.find('Level').text,
@@ -34,7 +46,12 @@ if __name__ == '__main__':
                 'magic': persona.find("Stats")['MA'],
                 'endurance': persona.find("Stats")['EN'],
                 'agility': persona.find("Stats")['AG'],
-                'luck': persona.find("Stats")['LU']
+                'luck': persona.find("Stats")['LU'],
+                'weaknesses': elemental_info['Weak'],
+                'resists': elemental_info['Resist'],
+                'absorbs': elemental_info['Absorb'],
+                'voids': elemental_info['Null'],
+                'repels': elemental_info['Repel']
             })
             print(yaml.dump(temp))
 

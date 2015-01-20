@@ -1,7 +1,7 @@
 element_list = [
     "fire",
     "ice",
-    "lightning",
+    "elec",
     "wind",
     "light",
     "dark",

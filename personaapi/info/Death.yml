@@ -1,17 +1,105 @@
 ---
-- {agility: '5', endurance: '9', entity_type: Death, level: '9', luck: '5', magic: '7',
-  name: Ghoul, strength: '8'}
-- {agility: '11', endurance: '9', entity_type: Death, level: '14', luck: '9', magic: '7',
-  name: Mokoi, strength: '13'}
-- {agility: '25', endurance: '16', entity_type: Death, level: '24', luck: '11', magic: '10',
-  name: Matador, strength: '17'}
-- {agility: '19', endurance: '25', entity_type: Death, level: '36', luck: '18', magic: '29',
-  name: Samael, strength: '24'}
-- {agility: '24', endurance: '30', entity_type: Death, level: '46', luck: '21', magic: '38',
-  name: Mot, strength: '32'}
-- {agility: '40', endurance: '37', entity_type: Death, level: '58', luck: '24', magic: '31',
-  name: White Rider, strength: '49'}
-- {agility: '45', endurance: '33', entity_type: Death, level: '72', luck: '44', magic: '56',
-  name: Alice, strength: '39'}
-- {agility: '49', endurance: '57', entity_type: Death, level: '78', luck: '39', magic: '38',
-  name: Mahakala, strength: '58'}
+- absorbs: []
+  agility: '5'
+  endurance: '9'
+  entity_type: Death
+  level: '9'
+  luck: '5'
+  magic: '7'
+  name: Ghoul
+  repels: []
+  resists: []
+  strength: '8'
+  voids: [Ice]
+  weaknesses: [Fire, Light]
+- absorbs: []
+  agility: '11'
+  endurance: '9'
+  entity_type: Death
+  level: '14'
+  luck: '9'
+  magic: '7'
+  name: Mokoi
+  repels: []
+  resists: []
+  strength: '13'
+  voids: [Ice]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '25'
+  endurance: '16'
+  entity_type: Death
+  level: '24'
+  luck: '11'
+  magic: '10'
+  name: Matador
+  repels: [Dark]
+  resists: []
+  strength: '17'
+  voids: []
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '19'
+  endurance: '25'
+  entity_type: Death
+  level: '36'
+  luck: '18'
+  magic: '29'
+  name: Samael
+  repels: []
+  resists: [Ice]
+  strength: '24'
+  voids: [Dark, Elec]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '24'
+  endurance: '30'
+  entity_type: Death
+  level: '46'
+  luck: '21'
+  magic: '38'
+  name: Mot
+  repels: [Dark]
+  resists: []
+  strength: '32'
+  voids: [Elec]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '40'
+  endurance: '37'
+  entity_type: Death
+  level: '58'
+  luck: '24'
+  magic: '31'
+  name: White Rider
+  repels: [Dark]
+  resists: []
+  strength: '49'
+  voids: [Fire, Light]
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '45'
+  endurance: '33'
+  entity_type: Death
+  level: '72'
+  luck: '44'
+  magic: '56'
+  name: Alice
+  repels: [Dark]
+  resists: []
+  strength: '39'
+  voids: []
+  weaknesses: [Light]
+- absorbs: [Fire]
+  agility: '49'
+  endurance: '57'
+  entity_type: Death
+  level: '78'
+  luck: '39'
+  magic: '38'
+  name: Mahakala
+  repels: [Elec]
+  resists: []
+  strength: '58'
+  voids: [Dark]
+  weaknesses: []

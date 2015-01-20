@@ -1,21 +1,131 @@
 ---
-- {agility: '4', endurance: '5', entity_type: Hierophant, level: '7', luck: '6', magic: '8',
-  name: Omoikane, strength: '5'}
-- {agility: '13', endurance: '10', entity_type: Hierophant, level: '15', luck: '9',
-  magic: '11', name: Anzu, strength: '9'}
-- {agility: '14', endurance: '9', entity_type: Hierophant, level: '21', luck: '11',
-  magic: '18', name: Shiisaa, strength: '18'}
-- {agility: '22', endurance: '19', entity_type: Hierophant, level: '29', luck: '14',
-  magic: '22', name: Unicorn, strength: '17'}
-- {agility: '20', endurance: '24', entity_type: Hierophant, level: '36', luck: '21',
-  magic: '20', name: Flauros, strength: '30'}
-- {agility: '26', endurance: '31', entity_type: Hierophant, level: '45', luck: '22',
-  magic: '34', name: Hokuto Seikun, strength: '29'}
-- {agility: '35', endurance: '32', entity_type: Hierophant, level: '52', luck: '29',
-  magic: '30', name: Cerberus, strength: '37'}
-- {agility: '30', endurance: '40', entity_type: Hierophant, level: '60', luck: '41',
-  magic: '45', name: Daisoujou, strength: '34'}
-- {agility: '38', endurance: '39', entity_type: Hierophant, level: '70', luck: '47',
-  magic: '60', name: Hachiman, strength: '33'}
-- {agility: '40', endurance: '54', entity_type: Hierophant, level: '76', luck: '38',
-  magic: '53', name: Kohryu, strength: '50'}
+- absorbs: []
+  agility: '4'
+  endurance: '5'
+  entity_type: Hierophant
+  level: '7'
+  luck: '6'
+  magic: '8'
+  name: Omoikane
+  repels: []
+  resists: [Elec]
+  strength: '5'
+  voids: []
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '13'
+  endurance: '10'
+  entity_type: Hierophant
+  level: '15'
+  luck: '9'
+  magic: '11'
+  name: Anzu
+  repels: []
+  resists: [Elec]
+  strength: '9'
+  voids: [Wind]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '14'
+  endurance: '9'
+  entity_type: Hierophant
+  level: '21'
+  luck: '11'
+  magic: '18'
+  name: Shiisaa
+  repels: []
+  resists: [Ice]
+  strength: '18'
+  voids: [Elec]
+  weaknesses: [Dark, Fire]
+- absorbs: []
+  agility: '22'
+  endurance: '19'
+  entity_type: Hierophant
+  level: '29'
+  luck: '14'
+  magic: '22'
+  name: Unicorn
+  repels: []
+  resists: []
+  strength: '17'
+  voids: [Ice]
+  weaknesses: [Dark, Wind]
+- absorbs: []
+  agility: '20'
+  endurance: '24'
+  entity_type: Hierophant
+  level: '36'
+  luck: '21'
+  magic: '20'
+  name: Flauros
+  repels: []
+  resists: [Wind]
+  strength: '30'
+  voids: [Fire]
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '26'
+  endurance: '31'
+  entity_type: Hierophant
+  level: '45'
+  luck: '22'
+  magic: '34'
+  name: Hokuto Seikun
+  repels: [Elec]
+  resists: []
+  strength: '29'
+  voids: []
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '35'
+  endurance: '32'
+  entity_type: Hierophant
+  level: '52'
+  luck: '29'
+  magic: '30'
+  name: Cerberus
+  repels: [Fire]
+  resists: []
+  strength: '37'
+  voids: []
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '30'
+  endurance: '40'
+  entity_type: Hierophant
+  level: '60'
+  luck: '41'
+  magic: '45'
+  name: Daisoujou
+  repels: []
+  resists: []
+  strength: '34'
+  voids: [Fire, Light]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '38'
+  endurance: '39'
+  entity_type: Hierophant
+  level: '70'
+  luck: '47'
+  magic: '60'
+  name: Hachiman
+  repels: []
+  resists: []
+  strength: '33'
+  voids: [Ice, Elec]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '40'
+  endurance: '54'
+  entity_type: Hierophant
+  level: '76'
+  luck: '38'
+  magic: '53'
+  name: Kohryu
+  repels: [Elec]
+  resists: []
+  strength: '50'
+  voids: [Light]
+  weaknesses: []

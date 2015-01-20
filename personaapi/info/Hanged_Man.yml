@@ -1,19 +1,118 @@
 ---
-- {agility: '12', endurance: '9', entity_type: Hanged Man, level: '15', luck: '9',
-  magic: '10', name: Berith, strength: '12'}
-- {agility: '12', endurance: '18', entity_type: Hanged Man, level: '22', luck: '10',
-  magic: '16', name: Yomotsu-Ikusa, strength: '17'}
-- {agility: '22', endurance: '13', entity_type: Hanged Man, level: '27', luck: '16',
-  magic: '21', name: Makami, strength: '16'}
-- {agility: '23', endurance: '28', entity_type: Hanged Man, level: '39', luck: '18',
-  magic: '21', name: Orthrus, strength: '34'}
-- {agility: '36', endurance: '27', entity_type: Hanged Man, level: '49', luck: '26',
-  magic: '33', name: Yatsufusa, strength: '32'}
-- {agility: '38', endurance: '31', entity_type: Hanged Man, level: '56', luck: '29',
-  magic: '37', name: Taowu, strength: '40'}
-- {agility: '40', endurance: '40', entity_type: Hanged Man, level: '66', luck: '28',
-  magic: '40', name: Hell Biker, strength: '49'}
-- {agility: '40', endurance: '50', entity_type: Hanged Man, level: '71', luck: '35',
-  magic: '47', name: Vasuki, strength: '48'}
-- {agility: '50', endurance: '56', entity_type: Hanged Man, level: '82', luck: '40',
-  magic: '56', name: Attis, strength: '51'}
+- absorbs: []
+  agility: '12'
+  endurance: '9'
+  entity_type: Hanged Man
+  level: '15'
+  luck: '9'
+  magic: '10'
+  name: Berith
+  repels: []
+  resists: []
+  strength: '12'
+  voids: [Fire]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '12'
+  endurance: '18'
+  entity_type: Hanged Man
+  level: '22'
+  luck: '10'
+  magic: '16'
+  name: Yomotsu-Ikusa
+  repels: []
+  resists: [Ice]
+  strength: '17'
+  voids: [Dark]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '22'
+  endurance: '13'
+  entity_type: Hanged Man
+  level: '27'
+  luck: '16'
+  magic: '21'
+  name: Makami
+  repels: []
+  resists: [Wind]
+  strength: '16'
+  voids: [Dark, Fire]
+  weaknesses: [Ice, Light]
+- absorbs: []
+  agility: '23'
+  endurance: '28'
+  entity_type: Hanged Man
+  level: '39'
+  luck: '18'
+  magic: '21'
+  name: Orthrus
+  repels: []
+  resists: []
+  strength: '34'
+  voids: [Fire]
+  weaknesses: [Ice]
+- absorbs: [Fire]
+  agility: '36'
+  endurance: '27'
+  entity_type: Hanged Man
+  level: '49'
+  luck: '26'
+  magic: '33'
+  name: Yatsufusa
+  repels: [Wind]
+  resists: []
+  strength: '32'
+  voids: [Light]
+  weaknesses: []
+- absorbs: []
+  agility: '38'
+  endurance: '31'
+  entity_type: Hanged Man
+  level: '56'
+  luck: '29'
+  magic: '37'
+  name: Taowu
+  repels: []
+  resists: []
+  strength: '40'
+  voids: [Dark, Elec]
+  weaknesses: [Fire, Light]
+- absorbs: []
+  agility: '40'
+  endurance: '40'
+  entity_type: Hanged Man
+  level: '66'
+  luck: '28'
+  magic: '40'
+  name: Hell Biker
+  repels: [Fire]
+  resists: []
+  strength: '49'
+  voids: []
+  weaknesses: [Light]
+- absorbs: []
+  agility: '40'
+  endurance: '50'
+  entity_type: Hanged Man
+  level: '71'
+  luck: '35'
+  magic: '47'
+  name: Vasuki
+  repels: []
+  resists: [Ice]
+  strength: '48'
+  voids: [Elec]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '50'
+  endurance: '56'
+  entity_type: Hanged Man
+  level: '82'
+  luck: '40'
+  magic: '56'
+  name: Attis
+  repels: [Wind]
+  resists: []
+  strength: '51'
+  voids: [Fire]
+  weaknesses: [Dark]

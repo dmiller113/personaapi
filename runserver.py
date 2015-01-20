@@ -14,5 +14,6 @@ if __name__ == '__main__':
         Base.metadata.create_all(engine)
         print("Entering in info from info files.")
         setup()
+        print("Setup Done")
 
     app.run(port=7070)

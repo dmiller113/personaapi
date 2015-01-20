@@ -1,13 +1,79 @@
 ---
-- {agility: '17', endurance: '15', entity_type: Lovers, level: '25', luck: '14', magic: '19',
-  name: Queen Mab, strength: '17'}
-- {agility: '26', endurance: '13', entity_type: Lovers, level: '33', luck: '19', magic: '27',
-  name: Undine, strength: '21'}
-- {agility: '29', endurance: '26', entity_type: Lovers, level: '42', luck: '26', magic: '33',
-  name: Leanan Sidhe, strength: '19'}
-- {agility: '33', endurance: '24', entity_type: Lovers, level: '53', luck: '39', magic: '38',
-  name: Raphael, strength: '32'}
-- {agility: '39', endurance: '37', entity_type: Lovers, level: '64', luck: '35', magic: '47',
-  name: Cybele, strength: '41'}
-- {agility: '48', endurance: '33', entity_type: Lovers, level: '71', luck: '49', magic: '44',
-  name: Ishtar, strength: '46'}
+- absorbs: []
+  agility: '17'
+  endurance: '15'
+  entity_type: Lovers
+  level: '25'
+  luck: '14'
+  magic: '19'
+  name: Queen Mab
+  repels: []
+  resists: []
+  strength: '17'
+  voids: [Elec]
+  weaknesses: [Wind]
+- absorbs: [Ice]
+  agility: '26'
+  endurance: '13'
+  entity_type: Lovers
+  level: '33'
+  luck: '19'
+  magic: '27'
+  name: Undine
+  repels: []
+  resists: []
+  strength: '21'
+  voids: []
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '29'
+  endurance: '26'
+  entity_type: Lovers
+  level: '42'
+  luck: '26'
+  magic: '33'
+  name: Leanan Sidhe
+  repels: []
+  resists: [Wind]
+  strength: '19'
+  voids: [Ice]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '33'
+  endurance: '24'
+  entity_type: Lovers
+  level: '53'
+  luck: '39'
+  magic: '38'
+  name: Raphael
+  repels: [Ice]
+  resists: []
+  strength: '32'
+  voids: [Light]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '39'
+  endurance: '37'
+  entity_type: Lovers
+  level: '64'
+  luck: '35'
+  magic: '47'
+  name: Cybele
+  repels: []
+  resists: [Fire]
+  strength: '41'
+  voids: [Ice]
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '48'
+  endurance: '33'
+  entity_type: Lovers
+  level: '71'
+  luck: '49'
+  magic: '44'
+  name: Ishtar
+  repels: []
+  resists: []
+  strength: '46'
+  voids: [Elec]
+  weaknesses: [Wind]

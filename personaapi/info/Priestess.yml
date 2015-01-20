@@ -1,19 +1,118 @@
 ---
-- {agility: '8', endurance: '5', entity_type: Priestess, level: '11', luck: '10',
-  magic: '12', name: Saki Mitama, strength: '5'}
-- {agility: '13', endurance: '10', entity_type: Priestess, level: '17', luck: '10',
-  magic: '16', name: Sarasvati, strength: '9'}
-- {agility: '19', endurance: '10', entity_type: Priestess, level: '22', luck: '13',
-  magic: '21', name: High Pixie, strength: '10'}
-- {agility: '19', endurance: '16', entity_type: Priestess, level: '29', luck: '21',
-  magic: '22', name: Ganga, strength: '16'}
-- {agility: '25', endurance: '17', entity_type: Priestess, level: '37', luck: '27',
-  magic: '29', name: Parvati, strength: '20'}
-- {agility: '31', endurance: '28', entity_type: Priestess, level: '48', luck: '30',
-  magic: '36', name: Kikuri-Hime, strength: '26'}
-- {agility: '34', endurance: '33', entity_type: Priestess, level: '59', luck: '39',
-  magic: '47', name: Hariti, strength: '31'}
-- {agility: '39', endurance: '41', entity_type: Priestess, level: '70', luck: '35',
-  magic: '56', name: Tzitzimitl, strength: '46'}
-- {agility: '49', endurance: '37', entity_type: Priestess, level: '79', luck: '45',
-  magic: '59', name: Scathach, strength: '54'}
+- absorbs: []
+  agility: '8'
+  endurance: '5'
+  entity_type: Priestess
+  level: '11'
+  luck: '10'
+  magic: '12'
+  name: Saki Mitama
+  repels: []
+  resists: [Ice]
+  strength: '5'
+  voids: []
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '13'
+  endurance: '10'
+  entity_type: Priestess
+  level: '17'
+  luck: '10'
+  magic: '16'
+  name: Sarasvati
+  repels: []
+  resists: []
+  strength: '9'
+  voids: [Ice]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '19'
+  endurance: '10'
+  entity_type: Priestess
+  level: '22'
+  luck: '13'
+  magic: '21'
+  name: High Pixie
+  repels: []
+  resists: []
+  strength: '10'
+  voids: [Elec]
+  weaknesses: [Ice]
+- absorbs: [Ice]
+  agility: '19'
+  endurance: '16'
+  entity_type: Priestess
+  level: '29'
+  luck: '21'
+  magic: '22'
+  name: Ganga
+  repels: []
+  resists: []
+  strength: '16'
+  voids: []
+  weaknesses: [Dark, Fire]
+- absorbs: []
+  agility: '25'
+  endurance: '17'
+  entity_type: Priestess
+  level: '37'
+  luck: '27'
+  magic: '29'
+  name: Parvati
+  repels: []
+  resists: []
+  strength: '20'
+  voids: [Ice]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '31'
+  endurance: '28'
+  entity_type: Priestess
+  level: '48'
+  luck: '30'
+  magic: '36'
+  name: Kikuri-Hime
+  repels: []
+  resists: [Elec]
+  strength: '26'
+  voids: [Fire]
+  weaknesses: [Dark]
+- absorbs: []
+  agility: '34'
+  endurance: '33'
+  entity_type: Priestess
+  level: '59'
+  luck: '39'
+  magic: '47'
+  name: Hariti
+  repels: []
+  resists: [Wind]
+  strength: '31'
+  voids: [Ice]
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '39'
+  endurance: '41'
+  entity_type: Priestess
+  level: '70'
+  luck: '35'
+  magic: '56'
+  name: Tzitzimitl
+  repels: [Elec]
+  resists: []
+  strength: '46'
+  voids: [Dark]
+  weaknesses: [Wind]
+- absorbs: [Ice]
+  agility: '49'
+  endurance: '37'
+  entity_type: Priestess
+  level: '79'
+  luck: '45'
+  magic: '59'
+  name: Scathach
+  repels: []
+  resists: []
+  strength: '54'
+  voids: [Wind]
+  weaknesses: [Fire]

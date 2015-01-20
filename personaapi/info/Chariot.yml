@@ -1,21 +1,131 @@
 ---
-- {agility: '2', endurance: '3', entity_type: Chariot, level: '2', luck: '3', magic: '2',
-  name: Slime, strength: '3'}
-- {agility: '7', endurance: '6', entity_type: Chariot, level: '6', luck: '4', magic: '2',
-  name: Nata Taishi, strength: '6'}
-- {agility: '8', endurance: '13', entity_type: Chariot, level: '12', luck: '5', magic: '6',
-  name: Eligor, strength: '11'}
-- {agility: '11', endurance: '11', entity_type: Chariot, level: '18', luck: '11',
-  magic: '11', name: Ara Mitama, strength: '11'}
-- {agility: '15', endurance: '20', entity_type: Chariot, level: '25', luck: '14',
-  magic: '15', name: Ares, strength: '18'}
-- {agility: '32', endurance: '27', entity_type: Chariot, level: '43', luck: '21',
-  magic: '23', name: Triglav, strength: '33'}
-- {agility: '23', endurance: '53', entity_type: Chariot, level: '54', luck: '27',
-  magic: '25', name: Kin-ki, strength: '41'}
-- {agility: '32', endurance: '53', entity_type: Chariot, level: '65', luck: '35',
-  magic: '39', name: Thor, strength: '43'}
-- {agility: '41', endurance: '43', entity_type: Chariot, level: '72', luck: '48',
-  magic: '41', name: Atavaka, strength: '50'}
-- {agility: '44', endurance: '61', entity_type: Chariot, level: '80', luck: '45',
-  magic: '38', name: Futsunushi, strength: '59'}
+- absorbs: []
+  agility: '2'
+  endurance: '3'
+  entity_type: Chariot
+  level: '2'
+  luck: '3'
+  magic: '2'
+  name: Slime
+  repels: []
+  resists: [Physical]
+  strength: '3'
+  voids: []
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '7'
+  endurance: '6'
+  entity_type: Chariot
+  level: '6'
+  luck: '4'
+  magic: '2'
+  name: Nata Taishi
+  repels: []
+  resists: [Fire]
+  strength: '6'
+  voids: []
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '8'
+  endurance: '13'
+  entity_type: Chariot
+  level: '12'
+  luck: '5'
+  magic: '6'
+  name: Eligor
+  repels: []
+  resists: [Dark, Physical]
+  strength: '11'
+  voids: []
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '11'
+  endurance: '11'
+  entity_type: Chariot
+  level: '18'
+  luck: '11'
+  magic: '11'
+  name: Ara Mitama
+  repels: []
+  resists: [Physical]
+  strength: '11'
+  voids: []
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '15'
+  endurance: '20'
+  entity_type: Chariot
+  level: '25'
+  luck: '14'
+  magic: '15'
+  name: Ares
+  repels: []
+  resists: [Physical]
+  strength: '18'
+  voids: [Light]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '32'
+  endurance: '27'
+  entity_type: Chariot
+  level: '43'
+  luck: '21'
+  magic: '23'
+  name: Triglav
+  repels: []
+  resists: [Physical]
+  strength: '33'
+  voids: []
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '23'
+  endurance: '53'
+  entity_type: Chariot
+  level: '54'
+  luck: '27'
+  magic: '25'
+  name: Kin-ki
+  repels: []
+  resists: []
+  strength: '41'
+  voids: [Physical]
+  weaknesses: []
+- absorbs: [Elec]
+  agility: '32'
+  endurance: '53'
+  entity_type: Chariot
+  level: '65'
+  luck: '35'
+  magic: '39'
+  name: Thor
+  repels: []
+  resists: [Physical]
+  strength: '43'
+  voids: []
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '41'
+  endurance: '43'
+  entity_type: Chariot
+  level: '72'
+  luck: '48'
+  magic: '41'
+  name: Atavaka
+  repels: []
+  resists: []
+  strength: '50'
+  voids: [Physical, Light]
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '44'
+  endurance: '61'
+  entity_type: Chariot
+  level: '80'
+  luck: '45'
+  magic: '38'
+  name: Futsunushi
+  repels: []
+  resists: []
+  strength: '59'
+  voids: [Physical]
+  weaknesses: [Dark]

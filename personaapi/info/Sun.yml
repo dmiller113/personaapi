@@ -1,21 +1,131 @@
 ---
-- {agility: '9', endurance: '6', entity_type: Sun, level: '10', luck: '7', magic: '5',
-  name: Cu Sith, strength: '10'}
-- {agility: '20', endurance: '9', entity_type: Sun, level: '20', luck: '14', magic: '15',
-  name: Phoenix, strength: '9'}
-- {agility: '22', endurance: '23', entity_type: Sun, level: '31', luck: '18', magic: '10',
-  name: Gdon, strength: '27'}
-- {agility: '31', endurance: '22', entity_type: Sun, level: '40', luck: '19', magic: '27',
-  name: Yatagarasu, strength: '28'}
-- {agility: '35', endurance: '30', entity_type: Sun, level: '47', luck: '27', magic: '27',
-  name: Narasimha, strength: '29'}
-- {agility: '39', endurance: '34', entity_type: Sun, level: '53', luck: '25', magic: '31',
-  name: Tam Lin, strength: '45'}
-- {agility: '48', endurance: '35', entity_type: Sun, level: '61', luck: '25', magic: '44',
-  name: Jatayu, strength: '38'}
-- {agility: '45', endurance: '35', entity_type: Sun, level: '68', luck: '38', magic: '48',
-  name: Horus, strength: '45'}
-- {agility: '55', endurance: '45', entity_type: Sun, level: '77', luck: '38', magic: '52',
-  name: Suparna, strength: '48'}
-- {agility: '50', endurance: '51', entity_type: Sun, level: '86', luck: '48', magic: '57',
-  name: Asura, strength: '59'}
+- absorbs: []
+  agility: '9'
+  endurance: '6'
+  entity_type: Sun
+  level: '10'
+  luck: '7'
+  magic: '5'
+  name: Cu Sith
+  repels: []
+  resists: [Wind]
+  strength: '10'
+  voids: []
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '20'
+  endurance: '9'
+  entity_type: Sun
+  level: '20'
+  luck: '14'
+  magic: '15'
+  name: Phoenix
+  repels: []
+  resists: []
+  strength: '9'
+  voids: [Elec]
+  weaknesses: [Ice]
+- absorbs: [Fire]
+  agility: '22'
+  endurance: '23'
+  entity_type: Sun
+  level: '31'
+  luck: '18'
+  magic: '10'
+  name: Gdon
+  repels: []
+  resists: []
+  strength: '27'
+  voids: []
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '31'
+  endurance: '22'
+  entity_type: Sun
+  level: '40'
+  luck: '19'
+  magic: '27'
+  name: Yatagarasu
+  repels: []
+  resists: [Wind]
+  strength: '28'
+  voids: [Light]
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '35'
+  endurance: '30'
+  entity_type: Sun
+  level: '47'
+  luck: '27'
+  magic: '27'
+  name: Narasimha
+  repels: []
+  resists: [Physical]
+  strength: '29'
+  voids: [Light]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '39'
+  endurance: '34'
+  entity_type: Sun
+  level: '53'
+  luck: '25'
+  magic: '31'
+  name: Tam Lin
+  repels: []
+  resists: [Fire, Physical]
+  strength: '45'
+  voids: [Elec, Light]
+  weaknesses: []
+- absorbs: [Wind]
+  agility: '48'
+  endurance: '35'
+  entity_type: Sun
+  level: '61'
+  luck: '25'
+  magic: '44'
+  name: Jatayu
+  repels: []
+  resists: []
+  strength: '38'
+  voids: []
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '45'
+  endurance: '35'
+  entity_type: Sun
+  level: '68'
+  luck: '38'
+  magic: '48'
+  name: Horus
+  repels: [Light]
+  resists: []
+  strength: '45'
+  voids: [Elec]
+  weaknesses: [Fire]
+- absorbs: [Wind]
+  agility: '55'
+  endurance: '45'
+  entity_type: Sun
+  level: '77'
+  luck: '38'
+  magic: '52'
+  name: Suparna
+  repels: []
+  resists: []
+  strength: '48'
+  voids: []
+  weaknesses: [Elec]
+- absorbs: []
+  agility: '50'
+  endurance: '51'
+  entity_type: Sun
+  level: '86'
+  luck: '48'
+  magic: '57'
+  name: Asura
+  repels: []
+  resists: [Ice]
+  strength: '59'
+  voids: [Fire, Light]
+  weaknesses: [Wind]

@@ -1,19 +1,118 @@
 ---
-- {agility: '12', endurance: '13', entity_type: Moon, level: '20', luck: '12', magic: '16',
-  name: Andra, strength: '14'}
-- {agility: '15', endurance: '19', entity_type: Moon, level: '27', luck: '15', magic: '13',
-  name: Nozuchi, strength: '26'}
-- {agility: '18', endurance: '26', entity_type: Moon, level: '34', luck: '15', magic: '21',
-  name: Yamata-no-Orochi, strength: '29'}
-- {agility: '29', endurance: '21', entity_type: Moon, level: '41', luck: '28', magic: '35',
-  name: Alraune, strength: '17'}
-- {agility: '30', endurance: '23', entity_type: Moon, level: '48', luck: '27', magic: '35',
-  name: Girimehkala, strength: '36'}
-- {agility: '33', endurance: '43', entity_type: Moon, level: '57', luck: '17', magic: '49',
-  name: Sui-ki, strength: '42'}
-- {agility: '39', endurance: '40', entity_type: Moon, level: '68', luck: '35', magic: '51',
-  name: Seth, strength: '46'}
-- {agility: '41', endurance: '49', entity_type: Moon, level: '77', luck: '40', magic: '60',
-  name: Baal Zebul, strength: '48'}
-- {agility: '47', endurance: '46', entity_type: Moon, level: '84', luck: '49', magic: '61',
-  name: Sandalphon, strength: '56'}
+- absorbs: []
+  agility: '12'
+  endurance: '13'
+  entity_type: Moon
+  level: '20'
+  luck: '12'
+  magic: '16'
+  name: Andra
+  repels: []
+  resists: []
+  strength: '14'
+  voids: [Elec]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '15'
+  endurance: '19'
+  entity_type: Moon
+  level: '27'
+  luck: '15'
+  magic: '13'
+  name: Nozuchi
+  repels: [Elec]
+  resists: []
+  strength: '26'
+  voids: []
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '18'
+  endurance: '26'
+  entity_type: Moon
+  level: '34'
+  luck: '15'
+  magic: '21'
+  name: Yamata-no-Orochi
+  repels: []
+  resists: []
+  strength: '29'
+  voids: [Elec, Ice]
+  weaknesses: [Fire, Wind]
+- absorbs: []
+  agility: '29'
+  endurance: '21'
+  entity_type: Moon
+  level: '41'
+  luck: '28'
+  magic: '35'
+  name: Alraune
+  repels: []
+  resists: [Fire, Ice]
+  strength: '17'
+  voids: [Dark]
+  weaknesses: [Wind]
+- absorbs: []
+  agility: '30'
+  endurance: '23'
+  entity_type: Moon
+  level: '48'
+  luck: '27'
+  magic: '35'
+  name: Girimehkala
+  repels: [Physical]
+  resists: []
+  strength: '36'
+  voids: []
+  weaknesses: [Dark, Light]
+- absorbs: [Ice]
+  agility: '33'
+  endurance: '43'
+  entity_type: Moon
+  level: '57'
+  luck: '17'
+  magic: '49'
+  name: Sui-ki
+  repels: [Elec]
+  resists: []
+  strength: '42'
+  voids: []
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '39'
+  endurance: '40'
+  entity_type: Moon
+  level: '68'
+  luck: '35'
+  magic: '51'
+  name: Seth
+  repels: [Ice]
+  resists: []
+  strength: '46'
+  voids: []
+  weaknesses: [Elec]
+- absorbs: [Ice]
+  agility: '41'
+  endurance: '49'
+  entity_type: Moon
+  level: '77'
+  luck: '40'
+  magic: '60'
+  name: Baal Zebul
+  repels: []
+  resists: []
+  strength: '48'
+  voids: [Dark]
+  weaknesses: [Fire]
+- absorbs: []
+  agility: '47'
+  endurance: '46'
+  entity_type: Moon
+  level: '84'
+  luck: '49'
+  magic: '61'
+  name: Sandalphon
+  repels: [Light]
+  resists: []
+  strength: '56'
+  voids: [Wind]
+  weaknesses: [Dark]

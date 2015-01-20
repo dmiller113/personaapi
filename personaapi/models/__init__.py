@@ -1,7 +1,7 @@
 from .base import Model, Base
-from .models import (Entity, Entity_Type, Element_Type, Skill, Resist_Element,
+from .models import (Entity, Entity_Type, Element_Type, Skill, Absorb_Element,
                      Repel_Element, Void_Element, Weakness_Element,
-                     Entity_Skills)
+                     Entity_Skills, Resist_Element)
 
 __all__ = [
     Model,
@@ -10,9 +10,10 @@ __all__ = [
     Entity_Type,
     Element_Type,
     Skill,
-    Resist_Element,
+    Absorb_Element,
     Repel_Element,
     Void_Element,
     Weakness_Element,
-    Entity_Skills
+    Entity_Skills,
+    Resist_Element
 ]

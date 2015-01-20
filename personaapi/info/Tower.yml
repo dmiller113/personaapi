@@ -1,15 +1,92 @@
 ---
-- {agility: '22', endurance: '30', entity_type: Tower, level: '35', luck: '13', magic: '27',
-  name: Taotie, strength: '20'}
-- {agility: '25', endurance: '28', entity_type: Tower, level: '46', luck: '20', magic: '32',
-  name: Cu Chulainn, strength: '40'}
-- {agility: '23', endurance: '50', entity_type: Tower, level: '55', luck: '29', magic: '27',
-  name: Abaddon, strength: '43'}
-- {agility: '36', endurance: '48', entity_type: Tower, level: '62', luck: '30', magic: '35',
-  name: Mara, strength: '44'}
-- {agility: '46', endurance: '45', entity_type: Tower, level: '69', luck: '40', magic: '32',
-  name: Masakado, strength: '51'}
-- {agility: '61', endurance: '49', entity_type: Tower, level: '75', luck: '34', magic: '39',
-  name: Yoshitsune, strength: '52'}
-- {agility: '54', endurance: '44', entity_type: Tower, level: '80', luck: '42', magic: '48',
-  name: Shiva, strength: '59'}
+- absorbs: []
+  agility: '22'
+  endurance: '30'
+  entity_type: Tower
+  level: '35'
+  luck: '13'
+  magic: '27'
+  name: Taotie
+  repels: [Dark]
+  resists: []
+  strength: '20'
+  voids: []
+  weaknesses: []
+- absorbs: []
+  agility: '25'
+  endurance: '28'
+  entity_type: Tower
+  level: '46'
+  luck: '20'
+  magic: '32'
+  name: Cu Chulainn
+  repels: [Wind]
+  resists: [Physical]
+  strength: '40'
+  voids: []
+  weaknesses: [Ice]
+- absorbs: []
+  agility: '23'
+  endurance: '50'
+  entity_type: Tower
+  level: '55'
+  luck: '29'
+  magic: '27'
+  name: Abaddon
+  repels: [Dark]
+  resists: [Ice]
+  strength: '43'
+  voids: [Fire]
+  weaknesses: [Light]
+- absorbs: [Fire]
+  agility: '36'
+  endurance: '48'
+  entity_type: Tower
+  level: '62'
+  luck: '30'
+  magic: '35'
+  name: Mara
+  repels: [Dark]
+  resists: [Wind]
+  strength: '44'
+  voids: []
+  weaknesses: [Light]
+- absorbs: []
+  agility: '46'
+  endurance: '45'
+  entity_type: Tower
+  level: '69'
+  luck: '40'
+  magic: '32'
+  name: Masakado
+  repels: []
+  resists: []
+  strength: '51'
+  voids: [Fire, Physical]
+  weaknesses: [Dark, Elec]
+- absorbs: []
+  agility: '61'
+  endurance: '49'
+  entity_type: Tower
+  level: '75'
+  luck: '34'
+  magic: '39'
+  name: Yoshitsune
+  repels: [Elec, Light]
+  resists: [Fire]
+  strength: '52'
+  voids: [Physical]
+  weaknesses: []
+- absorbs: [Ice]
+  agility: '54'
+  endurance: '44'
+  entity_type: Tower
+  level: '80'
+  luck: '42'
+  magic: '48'
+  name: Shiva
+  repels: [Elec]
+  resists: []
+  strength: '59'
+  voids: []
+  weaknesses: []
