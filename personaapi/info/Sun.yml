@@ -1,0 +1,21 @@
+---
+- {agility: '9', endurance: '6', entity_type: Sun, level: '10', luck: '7', magic: '5',
+  name: Cu Sith, strength: '10'}
+- {agility: '20', endurance: '9', entity_type: Sun, level: '20', luck: '14', magic: '15',
+  name: Phoenix, strength: '9'}
+- {agility: '22', endurance: '23', entity_type: Sun, level: '31', luck: '18', magic: '10',
+  name: Gdon, strength: '27'}
+- {agility: '31', endurance: '22', entity_type: Sun, level: '40', luck: '19', magic: '27',
+  name: Yatagarasu, strength: '28'}
+- {agility: '35', endurance: '30', entity_type: Sun, level: '47', luck: '27', magic: '27',
+  name: Narasimha, strength: '29'}
+- {agility: '39', endurance: '34', entity_type: Sun, level: '53', luck: '25', magic: '31',
+  name: Tam Lin, strength: '45'}
+- {agility: '48', endurance: '35', entity_type: Sun, level: '61', luck: '25', magic: '44',
+  name: Jatayu, strength: '38'}
+- {agility: '45', endurance: '35', entity_type: Sun, level: '68', luck: '38', magic: '48',
+  name: Horus, strength: '45'}
+- {agility: '55', endurance: '45', entity_type: Sun, level: '77', luck: '38', magic: '52',
+  name: Suparna, strength: '48'}
+- {agility: '50', endurance: '51', entity_type: Sun, level: '86', luck: '48', magic: '57',
+  name: Asura, strength: '59'}

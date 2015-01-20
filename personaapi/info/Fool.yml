@@ -1,0 +1,19 @@
+---
+- {agility: '3', endurance: '2', entity_type: Fool, level: '1', luck: '2', magic: '2',
+  name: Izanagi, strength: '3'}
+- {agility: '8', endurance: '7', entity_type: Fool, level: '7', luck: '4', magic: '7',
+  name: Yomotsu-Shikome, strength: '2'}
+- {agility: '9', endurance: '11', entity_type: Fool, level: '13', luck: '9', magic: '6',
+  name: Obariyon, strength: '11'}
+- {agility: '13', endurance: '18', entity_type: Fool, level: '21', luck: '11', magic: '14',
+  name: Legion, strength: '14'}
+- {agility: '25', endurance: '20', entity_type: Fool, level: '31', luck: '15', magic: '12',
+  name: Ose, strength: '28'}
+- {agility: '23', endurance: '22', entity_type: Fool, level: '38', luck: '22', magic: '31',
+  name: Black Frost, strength: '23'}
+- {agility: '26', endurance: '25', entity_type: Fool, level: '46', luck: '31', magic: '36',
+  name: Decarabia, strength: '27'}
+- {agility: '41', endurance: '31', entity_type: Fool, level: '56', luck: '24', magic: '29',
+  name: Shiki-Ouji, strength: '50'}
+- {agility: '47', endurance: '31', entity_type: Fool, level: '64', luck: '23', magic: '50',
+  name: Loki, strength: '48'}

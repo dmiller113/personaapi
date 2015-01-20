@@ -19,6 +19,6 @@ arcana_list = [
     "Star",
     "Moon",
     "Sun",
-    "Judgment",
+    "Judgement",
     "World"
 ]

@@ -1,0 +1,21 @@
+---
+- {agility: '2', endurance: '3', entity_type: Chariot, level: '2', luck: '3', magic: '2',
+  name: Slime, strength: '3'}
+- {agility: '7', endurance: '6', entity_type: Chariot, level: '6', luck: '4', magic: '2',
+  name: Nata Taishi, strength: '6'}
+- {agility: '8', endurance: '13', entity_type: Chariot, level: '12', luck: '5', magic: '6',
+  name: Eligor, strength: '11'}
+- {agility: '11', endurance: '11', entity_type: Chariot, level: '18', luck: '11',
+  magic: '11', name: Ara Mitama, strength: '11'}
+- {agility: '15', endurance: '20', entity_type: Chariot, level: '25', luck: '14',
+  magic: '15', name: Ares, strength: '18'}
+- {agility: '32', endurance: '27', entity_type: Chariot, level: '43', luck: '21',
+  magic: '23', name: Triglav, strength: '33'}
+- {agility: '23', endurance: '53', entity_type: Chariot, level: '54', luck: '27',
+  magic: '25', name: Kin-ki, strength: '41'}
+- {agility: '32', endurance: '53', entity_type: Chariot, level: '65', luck: '35',
+  magic: '39', name: Thor, strength: '43'}
+- {agility: '41', endurance: '43', entity_type: Chariot, level: '72', luck: '48',
+  magic: '41', name: Atavaka, strength: '50'}
+- {agility: '44', endurance: '61', entity_type: Chariot, level: '80', luck: '45',
+  magic: '38', name: Futsunushi, strength: '59'}

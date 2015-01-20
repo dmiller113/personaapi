@@ -1,5 +1,7 @@
 from personaapi import app, session
-from flask import g, render_template
+from flask import g, jsonify
+from sqlalchemy.orm.exc import NoResultFound
+from personaapi import models
 
 
 @app.before_request
@@ -19,16 +21,15 @@ def hallo():
     return 'hallo sir'
 
 
-@app.route(rule='/entity/<int:id>')
-def return_entity(id):
-    from personaapi.models import Entity
-    entity = g.db.query(Entity).filter_by(id=id).one()
-    col_names = [
-        'Arcana', 'Level', 'Strength', 'Magic', 'Endurance',
-        'Agility', 'Luck',
-    ]
-    return render_template('listview.html',
-                           entity=entity,
-                           list_name="Entity",
-                           columns=col_names,
-                           getattr=getattr)
+@app.route(rule=app.config['API_ENDPOINT'] + '<type>/<int:id>')
+def return_entity(type, id):
+    try:
+        model = g.db.query(getattr(models, type)).filter_by(id=id).one()
+    except AttributeError:
+        return ("Incorrect Route", 404,)
+    except NoResultFound:
+        return ("ID: %s not found for %s" % (id, type), 404,)
+    return_type = {}
+    for key in model.__table__.columns.keys():
+        return_type[key] = getattr(model, key)
+    return jsonify(return_type)

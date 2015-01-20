@@ -1,0 +1,15 @@
+---
+- {agility: '22', endurance: '30', entity_type: Tower, level: '35', luck: '13', magic: '27',
+  name: Taotie, strength: '20'}
+- {agility: '25', endurance: '28', entity_type: Tower, level: '46', luck: '20', magic: '32',
+  name: Cu Chulainn, strength: '40'}
+- {agility: '23', endurance: '50', entity_type: Tower, level: '55', luck: '29', magic: '27',
+  name: Abaddon, strength: '43'}
+- {agility: '36', endurance: '48', entity_type: Tower, level: '62', luck: '30', magic: '35',
+  name: Mara, strength: '44'}
+- {agility: '46', endurance: '45', entity_type: Tower, level: '69', luck: '40', magic: '32',
+  name: Masakado, strength: '51'}
+- {agility: '61', endurance: '49', entity_type: Tower, level: '75', luck: '34', magic: '39',
+  name: Yoshitsune, strength: '52'}
+- {agility: '54', endurance: '44', entity_type: Tower, level: '80', luck: '42', magic: '48',
+  name: Shiva, strength: '59'}

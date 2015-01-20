@@ -1,0 +1,21 @@
+---
+- {agility: '6', endurance: '7', entity_type: Hermit, level: '6', luck: '3', magic: '5',
+  name: Forneus, strength: '4'}
+- {agility: '13', endurance: '14', entity_type: Hermit, level: '17', luck: '10', magic: '6',
+  name: Ippon-Datara, strength: '15'}
+- {agility: '20', endurance: '12', entity_type: Hermit, level: '26', luck: '14', magic: '23',
+  name: Lamia, strength: '16'}
+- {agility: '28', endurance: '17', entity_type: Hermit, level: '33', luck: '18', magic: '23',
+  name: Mothman, strength: '20'}
+- {agility: '20', endurance: '30', entity_type: Hermit, level: '41', luck: '19', magic: '33',
+  name: Hitokoto-Nushi, strength: '28'}
+- {agility: '38', endurance: '28', entity_type: Hermit, level: '48', luck: '21', magic: '34',
+  name: Kurama Tengu, strength: '30'}
+- {agility: '31', endurance: '35', entity_type: Hermit, level: '55', luck: '42', magic: '41',
+  name: Niddhoggr, strength: '23'}
+- {agility: '40', endurance: '39', entity_type: Hermit, level: '63', luck: '32', magic: '47',
+  name: Nebiros, strength: '38'}
+- {agility: '37', endurance: '62', entity_type: Hermit, level: '73', luck: '25', magic: '55',
+  name: Arahabaki, strength: '50'}
+- {agility: '47', endurance: '59', entity_type: Hermit, level: '82', luck: '24', magic: '64',
+  name: Ongyo-ki, strength: '59'}

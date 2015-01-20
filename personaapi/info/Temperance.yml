@@ -1,0 +1,23 @@
+---
+- {agility: '5', endurance: '3', entity_type: Temperance, level: '4', luck: '3', magic: '5',
+  name: Apsaras, strength: '3'}
+- {agility: '10', endurance: '5', entity_type: Temperance, level: '11', luck: '7',
+  magic: '10', name: Sylph, strength: '8'}
+- {agility: '13', endurance: '9', entity_type: Temperance, level: '16', luck: '7',
+  magic: '12', name: Xiezhai, strength: '14'}
+- {agility: '15', endurance: '14', entity_type: Temperance, level: '23', luck: '16',
+  magic: '16', name: Nigi Mitama, strength: '15'}
+- {agility: '16', endurance: '21', entity_type: Temperance, level: '31', luck: '15',
+  magic: '26', name: Mithra, strength: '22'}
+- {agility: '12', endurance: '39', entity_type: Temperance, level: '40', luck: '21',
+  magic: '27', name: Genbu, strength: '28'}
+- {agility: '28', endurance: '33', entity_type: Temperance, level: '47', luck: '26',
+  magic: '31', name: Seiryuu, strength: '30'}
+- {agility: '42', endurance: '31', entity_type: Temperance, level: '54', luck: '30',
+  magic: '36', name: Suzaku, strength: '30'}
+- {agility: '49', endurance: '35', entity_type: Temperance, level: '62', luck: '30',
+  magic: '32', name: Byakko, strength: '47'}
+- {agility: '43', endurance: '45', entity_type: Temperance, level: '69', luck: '35',
+  magic: '50', name: Yurlungur, strength: '41'}
+- {agility: '54', endurance: '34', entity_type: Temperance, level: '73', luck: '43',
+  magic: '52', name: Vishnu, strength: '45'}

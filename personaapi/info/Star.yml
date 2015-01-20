@@ -1,0 +1,17 @@
+---
+- {agility: '15', endurance: '14', entity_type: Star, level: '24', luck: '11', magic: '23',
+  name: Kaiwan, strength: '16'}
+- {agility: '23', endurance: '19', entity_type: Star, level: '32', luck: '15', magic: '20',
+  name: Neko Shogun, strength: '26'}
+- {agility: '27', endurance: '34', entity_type: Star, level: '43', luck: '18', magic: '32',
+  name: Fuu-ki, strength: '25'}
+- {agility: '27', endurance: '31', entity_type: Star, level: '50', luck: '32', magic: '29',
+  name: Ganesha, strength: '38'}
+- {agility: '47', endurance: '28', entity_type: Star, level: '57', luck: '31', magic: '33',
+  name: Garuda, strength: '39'}
+- {agility: '44', endurance: '40', entity_type: Star, level: '67', luck: '38', magic: '39',
+  name: Kartikeya, strength: '47'}
+- {agility: '43', endurance: '36', entity_type: Star, level: '75', luck: '49', magic: '57',
+  name: Saturnus, strength: '50'}
+- {agility: '49', endurance: '56', entity_type: Star, level: '87', luck: '50', magic: '57',
+  name: Helel, strength: '56'}

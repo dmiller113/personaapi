@@ -1,0 +1,21 @@
+---
+- {agility: '4', endurance: '2', entity_type: Magician, level: '2', luck: '2', magic: '3',
+  name: Pixie, strength: '2'}
+- {agility: '7', endurance: '6', entity_type: Magician, level: '8', luck: '4', magic: '10',
+  name: Orobas, strength: '4'}
+- {agility: '11', endurance: '12', entity_type: Magician, level: '16', luck: '8',
+  magic: '14', name: Jack Frost, strength: '10'}
+- {agility: '17', endurance: '15', entity_type: Magician, level: '25', luck: '15',
+  magic: '21', name: Hua Po, strength: '14'}
+- {agility: '22', endurance: '19', entity_type: Magician, level: '32', luck: '20',
+  magic: '26', name: Pyro Jack, strength: '16'}
+- {agility: '26', endurance: '24', entity_type: Magician, level: '39', luck: '21',
+  magic: '31', name: Dis, strength: '25'}
+- {agility: '25', endurance: '30', entity_type: Magician, level: '47', luck: '32',
+  magic: '37', name: Rangda, strength: '24'}
+- {agility: '39', endurance: '38', entity_type: Magician, level: '62', luck: '28',
+  magic: '51', name: Jinn, strength: '37'}
+- {agility: '40', endurance: '39', entity_type: Magician, level: '69', luck: '40',
+  magic: '54', name: Surt, strength: '41'}
+- {agility: '38', endurance: '52', entity_type: Magician, level: '78', luck: '43',
+  magic: '63', name: Mada, strength: '45'}

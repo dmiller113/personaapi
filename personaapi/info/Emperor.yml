@@ -1,0 +1,17 @@
+---
+- {agility: '8', endurance: '8', entity_type: Emperor, level: '12', luck: '5', magic: '12',
+  name: Oberon, strength: '10'}
+- {agility: '13', endurance: '17', entity_type: Emperor, level: '22', luck: '12',
+  magic: '20', name: King Frost, strength: '11'}
+- {agility: '24', endurance: '25', entity_type: Emperor, level: '34', luck: '16',
+  magic: '21', name: Setanta, strength: '23'}
+- {agility: '20', endurance: '25', entity_type: Emperor, level: '41', luck: '22',
+  magic: '34', name: Oukuninushi, strength: '29'}
+- {agility: '21', endurance: '23', entity_type: Emperor, level: '45', luck: '27',
+  magic: '43', name: Thoth, strength: '28'}
+- {agility: '33', endurance: '30', entity_type: Emperor, level: '51', luck: '30',
+  magic: '29', name: Pabilsag, strength: '38'}
+- {agility: '36', endurance: '40', entity_type: Emperor, level: '65', luck: '34',
+  magic: '44', name: Barong, strength: '48'}
+- {agility: '39', endurance: '42', entity_type: Emperor, level: '74', luck: '43',
+  magic: '60', name: Odin, strength: '48'}

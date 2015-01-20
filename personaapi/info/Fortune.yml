@@ -1,0 +1,13 @@
+---
+- {agility: '26', endurance: '22', entity_type: Fortune, level: '35', luck: '22',
+  magic: '23', name: Fortuna, strength: '19'}
+- {agility: '26', endurance: '28', entity_type: Fortune, level: '44', luck: '32',
+  magic: '31', name: Clotho, strength: '22'}
+- {agility: '34', endurance: '25', entity_type: Fortune, level: '51', luck: '31',
+  magic: '39', name: Lachesis, strength: '31'}
+- {agility: '28', endurance: '45', entity_type: Fortune, level: '58', luck: '23',
+  magic: '42', name: Ananta, strength: '43'}
+- {agility: '37', endurance: '36', entity_type: Fortune, level: '65', luck: '45',
+  magic: '48', name: Atropos, strength: '36'}
+- {agility: '48', endurance: '31', entity_type: Fortune, level: '72', luck: '46',
+  magic: '53', name: Norn, strength: '42'}
